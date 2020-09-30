@@ -1,22 +1,42 @@
 {
   "projects":[
-    { "id": 1, "projectName": "star", "projectTasks": [
-        { "id": 1, "taskTitle": "edit" },
-        { "id": 2, "taskTitle": "update" },
-        { "id": 3, "taskTitle": "delite" }
-      ]
+    { "id": 1, "projectName": "star"
     },
-    { "id": 2, "projectName": "earth", "projectTasks": [
-      { "id": 1, "taskTitle": "edit 2" },
-      { "id": 2, "taskTitle": "update 2" },
-      { "id": 3, "taskTitle": "delite 2" }
-    ]
+    { "id": 2, "projectName": "earth"
     },
-    { "id": 3, "projectName": "sun", "projectTasks": [
-      { "id": 1, "taskTitle": "edit 3" },
-      { "id": 2, "taskTitle": "update 3" },
-      { "id": 3, "taskTitle": "delite 3" }
-    ]
+    { "id": 3, "projectName": "sun"
     }
-  ] 
+  ],
+  "projectTasks": [
+    {
+      "id": 1,
+      "taskTitle": "edit",
+      "projectsId": 1
+    },
+    {
+      "id": 2,
+      "taskTitle": "update",
+      "projectsId": 1
+    },
+    {
+      "id": 3,
+      "taskTitle": "delite",
+      "projectsId": 1
+    },
+    {
+      "id": 4,
+      "taskTitle": "edit",
+      "projectsId": 2
+    },
+    {
+      "id": 5,
+      "taskTitle": "update",
+      "projectsId": 2
+    },
+    {
+      "id": 6,
+      "taskTitle": "delite",
+      "projectsId": 3
+    }
+  ]
 }
